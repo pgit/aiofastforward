@@ -1,4 +1,6 @@
-# aiofastforward ![Python package](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+# aiofastforward ![Python package](https://github.com/pgit/aiofastforward/actions/workflows/python-package.yml/badge.svg)
+
+This is a custom fork of [michalc/aiofastforward](https://github.com/michalc/aiofastforward).
 
 Fast-forward time in asyncio Python by patching [loop.call_later](https://docs.python.org/3/library/asyncio-eventloop.html#asyncio.loop.call_later), [loop.call_at](https://docs.python.org/3/library/asyncio-eventloop.html#asyncio.loop.call_at), [loop.time](https://docs.python.org/3/library/asyncio-eventloop.html#asyncio.loop.time), and [asyncio.sleep](https://docs.python.org/3/library/asyncio-task.html#asyncio.sleep). This allows you to test asynchronous code synchronously.
 
